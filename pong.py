@@ -6,7 +6,7 @@ import pygame, sys
 from pygame.locals import *
 import time
 import socket
-ip=input("Enter Ip Address:")
+ip=input("Enter Server Ip Address (Your Opponent Ip Address):")
 name=input("Enter Your Name:")
 client_socket= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = ip
